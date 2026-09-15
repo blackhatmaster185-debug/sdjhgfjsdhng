@@ -5,6 +5,6 @@ ini_set('max_execution_time', 0);
 
 define('ADMIN_PANEL_URL', 'emreata');
 
-$HATA_MODU = 1;
+$HATA_MODU = 0;
 
 require_once('sistem/baslat.php');
