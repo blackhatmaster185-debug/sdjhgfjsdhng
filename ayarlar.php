@@ -7,7 +7,7 @@
 $site_url = "";
 
 /*
- Veritabanı ayarları
+ Veritabanı ayarlarıM
 */
 $db_host = '165.22.75.154';
 $db_username = 'vercel';
