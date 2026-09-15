@@ -9,10 +9,10 @@ $site_url = "";
 /*
  Veritabanı ayarları
 */
-$db_host = 'mysql.railway.internal';
-$db_username = 'root';
-$db_sifre = 'yPDrvaZfMrLnSCxjyrSMjlVAVkTExFmp';
-$db_database = 'sorgulama';
+$db_host = '165.22.75.154';
+$db_username = 'vercel';
+$db_sifre = 'qwezxc02!A';
+$db_database = 'admin_kilometre';
 
 /*
  Eğer plesk kullanıyorsanız session hatası alırsınız. İzin verilen session pathı tırnak içine yazmanız gerekmektedir. 
