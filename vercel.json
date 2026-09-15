@@ -1,17 +1,14 @@
 {
   "functions": {
-    "index.php": {
-      "runtime": "vercel-php@0.7.3"
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.3",
+      "includeFiles": "**"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.php"
+      "source": "/(.*)",
+      "destination": "/api/index.php"
     }
   ]
 }
